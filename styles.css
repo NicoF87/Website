@@ -1,0 +1,10 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container-img-nav {
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+}
