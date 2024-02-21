@@ -3,12 +3,16 @@
   margin: 0px;
 }
 
+html {
+  font-family: "Red Hat Text", sans-serif;
+}
+
 body {
   background-color: lightsalmon;
 }
 
 .container-img-nav {
-  background-color: aqua;
+  background-color: rgba(0, 0, 0, 35%);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,24 +24,27 @@ body {
 
 .nav-container ul {
   display: flex;
+  padding-right: 40px;
 }
 
 .nav-container li {
-  padding: 20px;
+  padding: 25px;
   list-style: none;
 }
 
 .nav-container li a {
   text-decoration: none;
-  color: black;
+  color: white;
+  font-size: 20px;
 }
 
 .nav-container li:hover {
-  background-color: rgb(20, 124, 184);
+  background-color: rgba(0, 0, 0, 80%);
 }
 
 .nav-logo {
   margin: 20px;
+  color: white;
 }
 
 .bg-video {
@@ -45,7 +52,7 @@ body {
   width: 100%;
   position: absolute;
   margin-top: -200px;
-  height: 195vh;
+  height: 230vh;
 }
 
 .container-about {
@@ -59,20 +66,22 @@ body {
   margin-left: 80px;
   margin-right: 80px;
   color: white;
+  font-size: 24px;
 }
 
 .subline {
-  margin: 150px 80px 80px 80px;
+  margin: 100px 80px 100px 80px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 3rem;
   text-align: justify;
   color: white;
+  font-size: 20px;
 }
 
 .container-gallery {
   min-height: 50vh;
-  background-color: rgba(0, 0, 0, 50%);
+  background-color: rgba(0, 0, 0, 35%);
   position: relative;
 }
 
@@ -90,13 +99,13 @@ body {
   object-fit: fill;
 }
 
-@media only screen and (max-width: 988px) {
+@media only screen and (max-width: 1630px) {
   .container-gallery #gallery {
     grid-template-columns: auto auto;
   }
 }
 
-@media only screen and (max-width: 566px) {
+@media only screen and (max-width: 827px) {
   .container-gallery #gallery {
     grid-template-columns: auto;
   }
@@ -111,7 +120,7 @@ body {
 }
 
 .container-donate {
-  background-color: lightblue;
+  background-color: #3e5f31;
   min-height: 50vh;
   position: relative;
 }
@@ -119,8 +128,10 @@ body {
 .headline-donate {
   padding-top: 200px;
   text-align: center;
+  vertical-align: middle;
   margin-left: 80px;
   margin-right: 80px;
+  color: white;
 }
 
 .headline-donate .quote {
@@ -129,10 +140,12 @@ body {
 }
 
 .container-donate p {
-  padding-top: 10px;
+  padding-top: 20px;
   text-align: center;
   margin-left: 80px;
   margin-right: 80px;
+  color: white;
+  font-size: 20px;
 }
 
 .donate-button {
@@ -148,10 +161,17 @@ body {
   padding: 20px 50px;
   border-radius: 5%;
   border: none;
-  background-color: rgb(45, 133, 132);
+  background-color: #6aa353;
   cursor: pointer;
+  border: 1px solid;
 }
 
 .donate-button button:hover {
-  background-color: rgba(45, 133, 132, 90%);
+  background-color: rgba(106, 163, 83, 80%);
+}
+
+footer {
+  height: 5vh;
+  position: relative;
+  background-color: #3e5f31;
 }
