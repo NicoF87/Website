@@ -1,0 +1,67 @@
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: "Red Hat Text", sans-serif;
+}
+
+.container-img-nav {
+  background-color: rgba(106, 163, 83, 80%);;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  /*position: fixed;
+  top: 0;
+  width: 100%;*/
+}
+
+.nav-container ul {
+  display: flex;
+  padding-right: 40px;
+}
+
+.nav-container li {
+  padding: 25px;
+  list-style: none;
+}
+
+.nav-container li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.nav-container li:hover {
+  background-color: rgba(0, 0, 0, 80%);
+}
+
+.nav-logo {
+  margin: 20px;
+  color: white;
+}
+
+.container-support {
+  margin: 60px 80px;
+}
+
+label {
+  display: block;
+}
+
+form {
+  margin: 0 auto;
+  max-width: 300px;
+  width: 500px;
+}
+
+.support-headline {
+  text-align: center;
+}
+
+.donate-subline p {
+  margin-top: 20px;
+}
